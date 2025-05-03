@@ -24,5 +24,9 @@ const loginUsuarios = async (req = request, res = response) =>{
         res.status(500).json('error');
   }
 }
+function hola(){
+    console.log('Hola mundo')
+    // prueba
+}
 
 module.exports  = { loginUsuarios}
