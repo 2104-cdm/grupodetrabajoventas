@@ -6,27 +6,34 @@
     <title>Document</title>
     <link rel="stylesheet" href="archivo.css" />
   </head>
-
-  <header class="header">
-    <img src="" alt="Logo" />
-
-    <div class="home">HOME</div>
-    <div class="login">LOGIN</div>
-    <div class="products">PRODUCTS</div>
-    <div class="contact">CONTACT</div>
-  </header>
-
   <body>
-    <div class="conts-usuario">
-      <p>USER NAME</p>
 
-      <input type="text" />
+    <header>
+      <img src="" alt="Logo" />
+      <nav>
+        <ul>
+          <li><a href="#" class="home">HOME</a></li>
+          <li><a href="#" class="login">LOGIN</a></li>
+          <li><a href="#" class="products">PRODUCTS</a></li>
+          <li><a href="#" class="contact">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
 
-      <p>PASSWORD</p>
+    <main>
+      <section class="cont-login">
+        <form action="#" method="post">
+          <label for="username">USER NAME</label>
+          <input type="text" id="username" name="username" />
 
-      <input type="text" />
+          <label for="password">PASSWORD</label>
+          <input type="password" id="password" name="password" />
 
-      <button class="login">LOGIN</button>
-    </div>
+          <button type="submit" class="login">LOGIN</button>
+        </form>
+      </section>
+    </main>
+
   </body>
 </html>
+
